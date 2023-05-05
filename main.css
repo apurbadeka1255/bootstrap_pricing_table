@@ -1,0 +1,96 @@
+.badge {
+  background-color: #622ee5;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.row .card {
+  margin: 1rem 0;
+}
+
+.row .card .card-header {
+  text-align: left;
+  background-color: #fff;
+}
+
+.row .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: flex;
+      -ms-flex-align: flex;
+          align-items: flex;
+  text-align: left;
+}
+
+.row .card .card-body h1 small {
+  font-size: 1.2rem;
+  opacity: .5;
+}
+
+.row .card .card-body ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.row .card .card-body ul li:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
+.row .card .card-body ul li img {
+  margin-right: .5rem;
+}
+
+.row .card .card-body .btn:hover {
+  background-color: #622ee5;
+}
+
+.row .card-2 {
+  background-color: #622ee5;
+  color: #fff;
+  height: 60vh;
+}
+
+.row .card-2 .card-header {
+  background-color: inherit;
+}
+
+.row .card-2 .card-header h1 {
+  color: #fff;
+}
+
+.row .card-2 .card-body {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.row .card-2 .card-body .btn {
+  background-color: #fff;
+}
+
+.row .card-2 .card-body .btn:hover {
+  background-color: #622ee5;
+  border: 1px solid #fff;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
